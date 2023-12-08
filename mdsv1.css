@@ -1,0 +1,163 @@
+#super_frame {
+  display: flex;
+  min-height: 768px;
+  justify-content: space-between;
+}
+.drw1 {
+  height: 128px;
+}
+.drw2 {
+  height: 256px;
+}
+.drw3 {
+  height: 384px;
+}
+.drw4 {
+  height: 512px;
+}
+.drw5 {
+  height: 640px;
+}
+.drw6 {
+  height: 768px;
+}
+
+.drw1 .block_content {
+  height: calc(128px - 27px - 32px) !important;
+}
+.drw2 .block_content {
+  height: calc(256px - 27px - 32px) !important;
+}
+.drw3 .block_content {
+  height: calc(384px - 27px - 32px) !important;
+}
+.drw4 .block_content {
+  height: calc(512px - 27px - 32px) !important;
+}
+.drw5 .block_content {
+  height: calc(640px - 27px - 32px) !important;
+}
+.drw6 .block_content {
+  height: calc(768px - 27px - 32px) !important;
+}
+
+.block_medium {
+  margin: 0;
+}
+.module {
+  height: 100%;
+  overflow: hidden;
+}
+#pt_photo {
+  height: 100% !important;
+  width: 100% !important;
+}
+.block_small {
+  margin: 0;
+}
+.block_large {
+  margin: 0;
+}
+.block {
+  width: 100%;
+}
+.dflexrow1 {
+  display: flex;
+  flex-direction: column;
+  width: 15% !important;
+}
+.dflexrow2 {
+  display: flex;
+  flex-direction: column;
+  width: 34% !important;
+}
+.dflexrow3 {
+  display: flex;
+  flex-direction: column;
+  width: 34% !important;
+}
+.dflexrow4 {
+  display: flex;
+  flex-direction: column;
+  width: 15% !important;
+}
+.expandimg {
+  float: right;
+  cursor: pointer;
+}
+.mapherf {
+  float: right;
+}
+.maleimg {
+  float: left;
+  margin-top: 3px;
+}
+.vitals li.bp,
+.vitals li.weight,
+.vitals li.height,
+.vitals li.bmi {
+  border-bottom: 1px dotted #cccccc;
+  cursor: pointer;
+  display: inline-block;
+  float: left;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  padding-right: 4px;
+}
+
+.vitals li.bmi {
+  color: #666;
+  font-size: 11px;
+  font-style: italic;
+  padding-right: 0;
+}
+
+.vitals li.bmi.bmi_low,
+.vitals li.bmi.bmi_high {
+  color: #c00;
+}
+
+.vitals li.bp {
+  width: 39%;
+}
+
+.vitals li {
+  padding: 2px 0;
+}
+
+.vitals .vital_name {
+  font-weight: bold;
+}
+
+.vitals .null {
+  color: #999999;
+}
+
+.vitals .abnormal {
+  color: #cc0000;
+}
+
+.vitals .custom_vital {
+  clear: left;
+}
+
+.custom_vital {
+  clear: none;
+  display: inline-block;
+  width: 32%;
+}
+
+.vital_value em {
+  display: none;
+}
+#block_stats .block_content {
+  height: 12px;
+}
+
+.page_demo #documents_block {
+  margin-top: 0px;
+}
+
+.page_demo #block_billing .block_content {
+  height: 158px;
+}
